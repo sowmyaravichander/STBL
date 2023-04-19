@@ -1,0 +1,79 @@
+.Line {
+    width: 200px;
+    height: 4.5px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+body{
+    text-align:center;
+    padding-top: 800px;
+    margin:0;
+}
+
+p{
+    
+    word-spacing: 10px;
+    line-height: 20px;
+    padding: 70px;
+    font-size: larger;
+}
+#Welcome{
+background: linear-gradient(Lightblue 0%, rgb(103, 100, 143) 100%);
+width: 100%;
+height: 800px;
+display: table;
+position: absolute;
+bottom: 0;
+top: 0;
+z-index: 1;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+#Biography{
+    padding: 50px;
+
+}
+#image{
+    border-radius: 50%;
+}
+#name{
+    font-size: 50px;
+    line-height: 100px;
+   font-family: 'Abel', sans-serif;
+font-family: 'Gilda Display', serif;
+   
+}
+.Menu{
+    list-style: none;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    cursor: pointer;
+    z-index: 69;
+    width: 100%;
+    
+
+
+
+}
+.links{
+    font-family: 'Abel', sans-serif;
+    display: inline; 
+    padding: 20px;
+    font-size: 30px;
+}
+.links:hover{
+font-size: 50px;
+text-decoration: underline;
+}
+
+#Contact{
+    background-color: gray;
+    font-size: 40px;
+}
+#Contact a{
+    color: rgb(98, 194, 98) !important;
+}
